@@ -63,7 +63,7 @@
 
         footer {
             background-color: red;
-            color: #fff;
+            color: black;
             text-align: center;
             padding: 30px;
             position: fixed;
@@ -74,9 +74,24 @@
             align-items: center;
         }
 
-        footer #socialmedia{
-            display: flex;
-            flex-direction: column;
+        
+        .redes{
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 12px;    
+            color: black;
+        }
+        .linkedin{
+            width: 17px;
+            height: 17px;
+            vertical-align: middle;
+            margin-right: 2px;
+        }
+        .instagram{
+            width: 12px;
+            height: 12px;
+            vertical-align: middle;
+            margin-right: 2px;
         }
     </style>
 </head>
@@ -111,11 +126,17 @@
     </main>
     <footer>
         <section>
-        <p>&copy; 2021 Soia Cnnt. Tds s dritos rsedos.</p>
+        <p>&copy; .</p>
         </section>
         <section id="socialmedia">
-            <span>xxxxx</span>
-            <span>xxxxxx</span>
+            <span class="redes">
+                <img src="imagens/logo linkedin.png" alt="linkedin" class="linkedin">
+                SocialConnect
+            </span>
+            <span class="redes">
+                <img src="imagens/logo instagram.png" alt="instagram" class="instagram">
+                @socialconnect
+            </span>
         </section>
     </footer>
 </body>
