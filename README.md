@@ -7,8 +7,6 @@ Este repositório contem o site da Social-Connect, este site representa as infor
 - Redes Sociais
 - Sobre a Social Connect
 
-#
-
 ## Integrantes
 
 - Fabiano Zague
